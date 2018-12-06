@@ -1,0 +1,9 @@
+*.class
+*.iml
+*.rar
+.gradle/
+.idea/
+build
+out
+classes
+work
