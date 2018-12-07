@@ -1,3 +1,4 @@
 rootProject.name = 'earth'
 include 'eureka'
+include 'code'
 
