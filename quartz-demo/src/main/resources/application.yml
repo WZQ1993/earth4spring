@@ -1,0 +1,19 @@
+
+spring:
+  application:
+    name: quartz-demo
+  datasource:
+    name: mysql
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/quartz_db?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+  quartz:
+    job-store-type: jdbc
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+debug: true

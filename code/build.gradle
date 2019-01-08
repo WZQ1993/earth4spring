@@ -1,14 +1,5 @@
-plugins {
-    id 'java'
-}
-
-version 'unspecified'
-
-sourceCompatibility = 1.8
-
-repositories {
-    mavenCentral()
-}
+group = 'com.ziqingwang.earth4spring'
+version = '0.1.0'
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'

@@ -1,4 +1,5 @@
-rootProject.name = 'earth'
+rootProject.name = 'earth4spring'
 include 'eureka'
 include 'code'
+include 'quartz-demo'
 
